@@ -24,10 +24,7 @@ data = load_data()
 st.title("Redbus Information Dashboard")
 
 # Add a video (you can use a YouTube link or local file)
-st.video("https://www.youtube.com/watch?v=dQw4w9WgXcQ")  # Replace with actual Redbus video link
-
-# Add a Redbus image (either from a URL or local file)
-st.image("https://upload.wikimedia.org/wikipedia/commons/5/55/RedBus_Logo.png", caption="Redbus", width=300)  # Replace with actual Redbus image URL or local file path
+st.video("https://youtu.be/eyAAUGhvZu8?si=U5PiwQkDpirTJaHO")  # Replace with actual Redbus video link
 
 # Route filter (initial filter)
 route_name = st.sidebar.selectbox("Select Route", options=data['route_name'].unique())
